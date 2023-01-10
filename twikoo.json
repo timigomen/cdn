@@ -7293,7 +7293,7 @@
       }
     ]
   },
-  "<img src=\"https://fastly.jsdelivr.net/gh/Eurkon/meme/bilibiliHotKey/7.jpg\" title=\"B站热词\">": {
+  "B站热词": {
     "type": "image",
     "container": [
       {
@@ -7426,7 +7426,7 @@
       }
     ]
   },
-  "<img src=\"https://fastly.jsdelivr.net/gh/Eurkon/meme/bilibilitv/[tv_doge].png\" title=\"B站TV\">": {
+  "B站TV": {
     "type": "image",
     "container": [
       {
@@ -7631,7 +7631,7 @@
       }
     ]
   },
-  "<img src=\"https://fastly.jsdelivr.net/gh/Eurkon/meme/QQ/haobang.gif\" title=\"QQ\">": {
+  "QQ": {
     "type": "image",
     "container": [
       {
@@ -8008,7 +8008,7 @@
       }
     ]
   },
-  "<img src=\"https://fastly.jsdelivr.net/gh/Eurkon/meme/dingtalk/emotion_107.png\" title=\"钉钉\">": {
+  "钉钉": {
     "type": "image",
     "container": [
       {
@@ -8753,7 +8753,7 @@
       }
     ]
   },
-  "<img src=\"https://npm.elemecdn.com/sticker-heo/Sticker-100/害羞.png\" title=\"Heo-Sticker\">": {
+  "Heo-Sticker": {
     "type": "image",
     "container": [
       {
