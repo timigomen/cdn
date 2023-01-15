@@ -296,8 +296,9 @@ function changeMouseMode() {
         mouseMode = "on";
         localStorage.setItem("mouse", "on");
         debounce(function () {
-            window.onkeydown = function (e) {
-    btf.snackbarShow('切换定制右键模式成功🍔', false, 3000)
+           $('.button').click(function() {
+   Snackbar.show({text: '定制右键菜单已开始'});
+});
     }
 }
         }, 300);
