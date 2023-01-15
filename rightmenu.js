@@ -296,19 +296,11 @@ function changeMouseMode() {
         mouseMode = "on";
         localStorage.setItem("mouse", "on");
         debounce(function () {
-            new Vue({
-                data: function () {
-                    this.$notify({
-                        title: "切换右键模式成功🍔",
-                        message: "当前鼠标右键已更换为网站指定样式！",
-                        position: 'top-left',
-                        offset: 50,
-                        showClose: true,
-                        type: "success",
-                        duration: 5000
-                    });
-                }
-            })
+            window.onkeydown = function (e) {
+    if (e.keyCode === 123) {
+        btf.snackbarShow('切换定制右键模式成功🍔', false, 3000)
+    }
+}
         }, 300);
     }
 }
