@@ -297,8 +297,7 @@ function changeMouseMode() {
         localStorage.setItem("mouse", "on");
         debounce(function () {
             window.onkeydown = function (e) {
-    if (e.keyCode === 123) {
-        btf.snackbarShow('切换定制右键模式成功🍔', false, 3000)
+    btf.snackbarShow('切换定制右键模式成功🍔', false, 3000)
     }
 }
         }, 300);
