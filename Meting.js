@@ -30,7 +30,7 @@ loadMeting = function() {
             aplayers.push(new APlayer(r))
         }
     }
-    var t = "https://ttttcccc.nuoxnuo.eu.org/api?server=:server&type=:type&id=:id&r=:r";
+    var t = "https://vercelmeting.zyhfree.xyz/api?server=:server&type=:type&id=:id&r=:r";
     "undefined" != typeof meting_api && (t = meting_api);
     for (var e = 0; e < aplayers.length; e++) if (!aplayers[e].container.classList.contains("no-destroy")) try {
         aplayers[e].destroy()
